@@ -1,16 +1,6 @@
-# basic-portfolio version 02
+# responsive-portfolio version 01
 This is my portfolio for the first homework assignment.
 
-Complete for homework on 3/29/17
+due to awful cold or flue was not able to complete.
+submitted anyway on 4/4/17
 
-Still to be completed:
-
-need to complete "about me" text
-
-Portfolio page needs to point to actual projects with relevent pix
-
-"Connect with me" links need to include my Github and Stack Overflow sites
-
-need to build a back-end for the "contact" page
-
-also should include a "email me" field
