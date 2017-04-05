@@ -1,0 +1,207 @@
+/** This is the style sheet for my bio site **/
+
+body{
+	width: 1200px;
+
+}
+
+header{
+	height: 70px;
+/**	width: 1100px;	**/
+}
+
+header-name{
+	float: left;
+	margin-left: 80px;
+	margin-right: 360px;
+	padding:20px;
+	background-color: #4aaaa5;	
+	font-size: 30px;
+	font-family: Times;
+	color: white;
+}
+
+.header-links{
+	float: left;
+	margin-top: 27px;
+	margin-left: 80px;
+	padding: 5px;
+	font-size: 10px;
+	font-family: Helvetica;
+	color: grey;
+}
+
+section{
+	background-color: #d9dddd;
+}
+#main-box{
+	border: 2px solid blue;
+
+/**	margin: 10px;	**/
+	clear: both;
+	overflow: auto;
+	background-image: "assets/pix/concrete_seamless.png";
+}
+
+info-box{
+	border: 2px solid green;
+	float: left;
+	width:  650px;
+	margin: 30px 0px 30px 40px;
+	padding: 10px;
+	background-color: white;
+}
+
+.side-col{
+	border: 2px solid blue;
+	float: left;
+	margin: 30px 30px 30px 40px;
+	padding: 25px;
+	height: 150px;
+	width:  270px;	
+	background-color: white;
+}
+
+h2{
+	height: 30px;
+	font-family: Times;
+}
+
+content-box{
+/**	clear: all;		**/
+	float: left;
+	border-top: 2px solid grey;
+	width: 100%;
+}
+
+
+pix-box{
+	float: left;
+	margin-right: 5px;
+	height: 140px;
+	width:  95px;
+}
+
+h3{
+	margin-top: 0px;
+/**	height: 30px;	**/
+	font-family: Times;
+}
+media-box{
+	float: left;
+	border-top: 2px solid grey;
+	padding: 10px;
+	height: 100px;
+	width: 260px;
+}
+
+form{
+	width: 100%;
+}
+
+input{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+textarea{
+	width: 100%;
+	height: 80px;
+	margin-top: 5px;
+}
+
+button{
+	margin-top: 5px;
+}
+
+portfolio-boxes{
+	position: relative;
+	float: left;
+	width: 290px;
+	height: 121px;
+	margin: 15px;
+	z-index: 1;
+}
+
+.porfolio-pic{
+	top: 0; left: 0
+	width: 200px;
+	height: 100%;
+	margin: 30;
+/**	padding: 24px;	**/
+	z-index: 1;
+
+}
+
+.portfolio-title{
+	top: 0; left: 0;
+	position: absolute;
+	width: 270px;
+	height: 25px;
+	margin-top: 50px;
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: white;
+	z-index: 2;
+}
+
+
+.footer{
+
+/**	width:	100%;	**/
+	height: 50px;
+	border-top: 8px solid #4aaaa5;
+	background-color: #666666;
+	padding-top: 30px;
+	text-align: center;
+/**	vertical-align: center;	**/
+	font-size: 10pt;
+	color: white;
+	font-family: helvetica;
+}
+
+
+@media screen and (max-width: 980px) {
+    body {
+    	width: 980px;
+        background-color: green;
+    }
+	main-box{
+		width: 900px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    body {
+		width: 768px;
+        background-color: blue;
+    }
+	main-box{
+		width: 708px;
+	}
+	.side-col{
+		width: 650px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+    body {
+		width: 640px;
+        background-color: purple;
+    }
+    main-box{
+    	width: 560px;
+    }
+    info-box{
+    	width: 520px;
+    }
+	.side-col{
+		width: 480px;
+	}
+	media-box{
+		width: 400px;
+	}
+}
+
+
