@@ -1,6 +1,6 @@
-# responsive-portfolio version 01
+# responsive-portfolio version 02
 This is my portfolio for the first homework assignment.
 
-due to awful cold or flue was not able to complete.
-submitted anyway on 4/4/17
+This is the final version completed one day late due to severe cold/flue.
+submitted on 4/6/17
 
